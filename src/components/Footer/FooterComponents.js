@@ -85,5 +85,16 @@ display: flex;`
 export const AppGaleryIcon = styled(Link)`
 display: flex;
 `
+export const Credits = styled.div `
+display:flex;
+justify-content: center;
 
+    a {
+        margin-bottom :0;
+        text-decoration:none;
+        
+            color: red;
+       
+    }
+`
 

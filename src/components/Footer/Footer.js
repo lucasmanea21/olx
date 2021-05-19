@@ -1,5 +1,5 @@
 import React from 'react'
-import {FooterItem, FooterSection,FooterContent, FooterColumn1,FooterColumn2,FooterSocialColumn,SocialMediaIcons,FacebookIcon, InstagramIcon, YoutubeIcon,AppDownloadIcons,AppStoreIcon, GooglePlayIcon, AppGaleryIcon} from './FooterComponents'
+import {FooterItem,Credits, FooterSection,FooterContent, FooterColumn1,FooterColumn2,FooterSocialColumn,SocialMediaIcons,FacebookIcon, InstagramIcon, YoutubeIcon,AppDownloadIcons,AppStoreIcon, GooglePlayIcon, AppGaleryIcon} from './FooterComponents'
 import {firstColumn, secondColumn} from '../../Data/FooterData'
 import appStore from '../../images/svg-5.svg'
 
@@ -16,6 +16,7 @@ const Footer = () => {
 
 
     return (
+        <>
         <FooterSection>
             <FooterContent>
                 <FooterColumn1>
@@ -44,8 +45,12 @@ const Footer = () => {
                        </AppGaleryIcon>
                    </AppDownloadIcons>
                 </FooterSocialColumn>
+            
             </FooterContent>
+            <Credits><p>Coded by <a href='https://github.com/lucasmanea21'>Lucas Manea</a></p></Credits>
         </FooterSection>
+
+        </>
     )
 }
 
