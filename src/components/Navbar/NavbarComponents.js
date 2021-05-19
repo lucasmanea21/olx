@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import {Link} from 'react-router-dom'
-import { FiLink2 } from 'react-icons/fi'
 export const Nav = styled.div`
     width: 100%;
     background-color: #002f34;

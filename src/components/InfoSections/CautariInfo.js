@@ -1,5 +1,5 @@
 import React from 'react'
-import {CautariSection, CautariWrapper, CategoriiPrincipale, CategoriiImg, CategoriiP, CautariFrecvente,CautariImg, CautariP, CategoriiImage, CautariImage} from './CautariComponents'
+import {CautariSection, CautariWrapper, CategoriiPrincipale,  CautariFrecvente, CategoriiImage, CautariImage} from './CautariComponents'
 import docSvg from '../../images/svg-3.svg'
 import docSvg2 from '../../images/svg-4.svg'
 

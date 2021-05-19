@@ -1,5 +1,5 @@
 import React from 'react'
-import {ProductWrapper,DeliveryDiv, DeliveryImage, HeartIcon, ProductContent,ImageWrapper, Image,ProductTitle,ProductTimeLocation,ProductPrice, ProductHeart} from './ProductComponents'
+import {ProductWrapper,DeliveryDiv, DeliveryImage, HeartIcon, ProductContent,ImageWrapper, Image,ProductTitle,ProductTimeLocation,ProductPrice} from './ProductComponents'
 
 const Product = ({src, title, place, time, price,alt,delivery}) => {
     return (

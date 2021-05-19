@@ -34,13 +34,13 @@ const Footer = () => {
                     Descarca aplicatia pentru telefon din
                    <AppDownloadIcons>
                        <AppStoreIcon>
-                           <img src={appStore} />
+                           <img src={appStore} alt='App Store'/>
                        </AppStoreIcon>
                        <GooglePlayIcon>
-                           <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/1200px-Google_Play_Store_badge_EN.svg.png' />
+                           <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/1200px-Google_Play_Store_badge_EN.svg.png' alt='Play Store'/>
                        </GooglePlayIcon>
                        <AppGaleryIcon>
-                           <img src='https://consumer-img.huawei.com/content/dam/huawei-cbg-site/common/campaign/emui91/images/Badge-Black.png' />
+                           <img src='https://consumer-img.huawei.com/content/dam/huawei-cbg-site/common/campaign/emui91/images/Badge-Black.png' alt='Huawei'/>
                        </AppGaleryIcon>
                    </AppDownloadIcons>
                 </FooterSocialColumn>

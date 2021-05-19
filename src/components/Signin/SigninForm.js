@@ -1,5 +1,4 @@
-import React,{useState,useEffect} from 'react'
-import Button from '../Button'
+import React,{useState} from 'react'
 import {SigninSection,FormWrapper,TermsDiv,NavMenu,SignInBtn,SignUpBtn,SigninWithAccounts,SigninFormDiv,SignUpFormDiv,EmailForm,EmailInput, PasswordForm,PasswordInput,ForgotPassword,SigninBtn,FbBtnWrapper,GoogleBtnWrapper,TermsWrapper,AcordInput,InputDiv,AcordDiv,AcordText} from './SigninComponents'
 
 const SigninForm = () => {

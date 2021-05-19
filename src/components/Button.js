@@ -28,12 +28,7 @@ const ButtonWrapper = styled(Link) `
         font-weight: 600;
     }
 `
-const ButtonText = styled.p `
-    display:flex;
-    padding: 0 1rem;
-    align-items: center;
-    justify-content:center;
-`
+
 
 const Button = ({primary,text}) => {
     return (

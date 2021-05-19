@@ -1,4 +1,4 @@
-import React,{useEffect,useState} from 'react'
+import React,{useState} from 'react'
 import Product from './Product'
 import Data from '../../Data/ProductData.json'
 import {ProductsSectionDiv,ButtonWrapper, ProductsSectionWrapper,ProductSectionTitle} from './ProductComponents'

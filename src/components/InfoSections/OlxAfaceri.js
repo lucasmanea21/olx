@@ -85,7 +85,7 @@ const InfoSection = () => {
         <InfoSectionWrapper>
             <InfoContent>
                 <InfoImage>
-                <img src={svg} />
+                <img src={svg} alt='OLX Afaceri'/>
                 </InfoImage>
                 <InfoSlogan>
                     <InfoTopline>

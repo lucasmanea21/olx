@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import {SearchSection,SearchIconDiv,SearchIconBtn, ButtonText,LocationDiv,LocationIcon,SearchbarDiv,SearchIcon, Searchbar, LocationBar,ButtonDiv, SearchButton,AnunturiFiltrate} from './SearchBarComponents'
+import {SearchSection,SearchIconBtn, ButtonText,LocationDiv,LocationIcon,SearchbarDiv,SearchIcon, Searchbar, LocationBar, SearchButton} from './SearchBarComponents'
 import {AiOutlineSearch} from 'react-icons/ai'
 import {GoLocation} from 'react-icons/go'
 import Data from '../../Data/ProductData.json'
